@@ -68,7 +68,7 @@ function calculateAverage(array) {
 console.log(calculateAverage(numbers));
 //11 Declare two arrays to compare
 const numbersArray = [1, 2, 3];
-const numbersArray2 = [1, 2, 6];
+const numbersArray2 = [1, 2, 2];
 //This is a function that compares the results of the average function performed on each
 function isAverageGreater(array1, array2) {
     if (calculateAverage(array1) > calculateAverage(array2)) {
@@ -78,7 +78,7 @@ function isAverageGreater(array1, array2) {
 console.log(isAverageGreater(numbersArray, numbersArray2));
 //12 function to find if both statements are true
 function willBuyDrink(isHotOutside, moneyInPocket) {
-    if (isHotOutside = true && moneyInPocket > 10.50) {
+    if ((isHotOutside == true) && (moneyInPocket > 10.50)) {
         return true
     } return false
 }
