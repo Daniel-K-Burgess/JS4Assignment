@@ -24,7 +24,7 @@ let sum = lengths.reduce(function(accumulator, currentValue) {
 //divide the sum by the number of characters
 console.log(sum / [names.length]);
 //2b Use the join method
-var allNames = names.join(" ");
+let allNames = names.join(" ");
 console.log(allNames);
 
 //3 array.length - 1 to access the last element
@@ -78,7 +78,7 @@ function isAverageGreater(array1, array2) {
 console.log(isAverageGreater(numbersArray, numbersArray2));
 //12 function to find if both statements are true
 function willBuyDrink(isHotOutside, moneyInPocket) {
-    if ((isHotOutside == true) && (moneyInPocket > 10.50)) {
+    if ((isHotOutside) && (moneyInPocket > 10.50)) {
         return true
     } return false
 }
